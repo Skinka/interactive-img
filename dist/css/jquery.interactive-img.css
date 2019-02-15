@@ -3,15 +3,15 @@
   .interactive__img {
     width: 100%;
     display: block; }
-  .interactive .interactive-darken::before {
-    content: '';
+
+.interactive .interactive-darken {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-      background-color: rgba(0, 0, 0, 0.3);
-  }
+    background-color: rgba(0, 0, 0, 0.3);
+}
   .interactive .interactive-point {
     position: absolute;
     padding: 10px;
